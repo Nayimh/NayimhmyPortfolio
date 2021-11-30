@@ -1,0 +1,60 @@
+.contact{
+    min-height: 100vh;
+    position: relative;
+    margin: auto;
+    background-color: #191e29;
+    overflow: hidden;
+}
+
+.contact-bg{
+    width: 20px;
+    height: 100%;
+    background-color: rgba(255, 0, 0, 0.726);
+    position: absolute;
+}
+
+.wrapper{
+    padding: 50px;
+    display: flex;
+   
+    width: 100vw;
+    margin: auto;
+
+}
+
+/* .leftside{
+    width: 100%;
+    margin-bottom: 5rem;
+} */
+
+.rightside{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    margin-top: 20px;
+}
+input{
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid gray;
+    margin: 10px 0px;
+}
+
+textarea{
+    width: 100%;
+}
+
+@media only screen and (max-width: 700px){
+    .contact{
+        height: 140vh;
+    }
+.wrapper{
+    flex-direction: column;
+}
+}

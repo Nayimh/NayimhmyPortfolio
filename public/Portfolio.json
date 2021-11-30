@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "name": "uniquify-x-Automobile",
+        "description": "If you maximize your growth potential, you can see a difference in muscle within 2 weeks. Two weeks is not a lot of time to add significant muscle.",
+        "img": "https://i.ibb.co/3YkqWHN/fcc.png",
+        "live": "https://uniquify-x.web.app/",
+	    "git" : "https://github.com/Nayimh/Nayimh-Crud-Project"
+    },
+{
+        "id": 2,
+        "name": "Evergreen Travell",
+        "description": "If you maximize your growth potential, you can see a difference in muscle within 2 weeks. Two weeks is not a lot of time to add significant muscle.",
+        "img": "https://i.ibb.co/cr26dWJ/travells.png",
+        "live": "https://evergreen-travel.web.app/",
+	    "git" : "https://github.com/Nayimh/Nayimh-Travell-Website"
+    },
+{
+        "id": 3,
+        "name": "Smart Fit",
+        "description": "If you maximize your growth potential, you can see a difference in muscle within 2 weeks. Two weeks is not a lot of time to add significant muscle.",
+        "img": "https://i.ibb.co/sVDDxVb/fitnessm.png",
+        "live": "https://fitness-site-d759e.web.app/",
+	    "git" : "https://github.com/Nayimh/Nayimh-Fitness-Website"
+    },
+{
+        "id": 4,
+        "name": "Honda Cbr",
+        "description": "If you maximize your growth potential, you can see a difference in muscle within 2 weeks. Two weeks is not a lot of time to add significant muscle.",
+        "img": "https://i.ibb.co/XCQgQTr/hondas.png",
+        "live": "https://nayimh.github.io/AssignmentWithBs/",
+	    "git" : "https://github.com/Nayimh/AssignmentWithBs"
+    }
+]
+
