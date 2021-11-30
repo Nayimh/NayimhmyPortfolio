@@ -1,9 +1,16 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css'
 import img from '../../../Image/NayimHasan.png'
 const Banner = () => {
+    useEffect(()=> {
+        Aos.init({
+            once: true,
+        })
+    });
     return (
-        <div className="min-h-screen flex items-center justify-center pb-10 mx-auto" style={{ background: '#191e29' }}>
-            <div className="flex flex-col md:flex-row items-center justify-between w-10/12 mx-auto">
+        <div id="home" className="min-h-screen flex items-center justify-center pb-10 mx-auto" style={{ background: '#000000' }}>
+            <div data-aos='fade-down' data-aos-duration='1800' className="flex flex-col md:flex-row items-center justify-between w-10/12 mx-auto">
             <div className="w-full md:w-2/5">
             <img className="rounded-full" src={img} alt=""  effect="blur"/>
             </div>

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Navigation.css'
 import { NavLink } from 'react-router-dom';
-import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
+import { AiFillGithub, AiFillLinkedin, AiFillFacebook } from 'react-icons/ai';
 import { GiHamburgerMenu } from 'react-icons/gi';
 const Navigation = () => {
     const [showMediaIcons, setShowMediaIcons] = useState(false);
@@ -60,7 +60,7 @@ const Navigation = () => {
               <a
                   href="https://www.linkedin.com/in/nayim-hasan/"
                   target="_blank" rel="noreferrer">
-                  <AiFillLinkedin className="linkedin" />
+                  <AiFillFacebook className="linkedin" />
                 </a>
               </li>
             </ul>

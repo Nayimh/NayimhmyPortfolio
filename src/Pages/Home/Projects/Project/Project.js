@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Project = (props) => {
     const { img,  name,  live, git, id } = props.project;
     return (
-        <div className="w-10/12 mx-auto my-2 shadow-2xl">
+        <div className="w-10/12 mx-auto my-2 shadow-2xl bg-gray-900">
         <div className='rounded shadow-lg '>
             <img className='w-full' src={img} alt="" />
         </div>

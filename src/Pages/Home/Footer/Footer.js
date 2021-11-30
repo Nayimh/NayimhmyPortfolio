@@ -3,7 +3,7 @@ import { FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa';
 const Footer = () => {
     return (
         <div>
-             <div className="py-5 mt-32 border-t-3/2 bg-gray-800">
+             <div className="py-5 mt-32 border-t-3/2 bg-gray-900">
             <div className="flex justify-center mt-4">
             <a href="https://github.com/Nayimh" target="_blank" rel="noreferrer" className="text-xl text-gray-800 hover:bg-gray-400 rounded-full p-2 m-1 cursor-pointer bg-white">
                         <FaGithub />
